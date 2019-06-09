@@ -9,6 +9,6 @@ public class Main {
         String[] arrayStrB = strB.split("");
 
         System.out.println(222222222);
-       System.out.println(Relevantsearch.isReleventScore(strA,strB));
+       System.out.println(Relevantsearch.isRelevantScore(strA,strB));
     }
 }

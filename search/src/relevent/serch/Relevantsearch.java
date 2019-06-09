@@ -15,24 +15,22 @@ public class Relevantsearch {
      * @param strB　比較する文字B
      * @return score
      */
-    public static double isReleventScore(String strA, String strB) {
+    public static double isRelevantScore(String strA, String strB) {
         double score = 100;
         //In order to optimize the scores,
         // the scores are divided by the number of longer characters
         // between two words.
-        //However I have to consider this way is the best or not.
+        //TODO However I have to consider this way is the best or not.
         double numToOptimize = Math.max(strA.length(), strB.length());
 
         String[] arrayStrA = strA.split("");
         String[] arrayStrB = strB.split("");
-
 
         //strAとstrBを一文字ずつ比べていく
         //strBの最初の文字をstrAと一文字ずつ比較していき
         //合致したらtmpListの合致したstrAの文字と同じインディックスに加えていく。
         //次のループは加えた文字のインデクスの次のインディックスから
         //最後にtmpListとstrAの一致していない文字数だけスコアを追加する。
-
         //最初のループはstrBの先頭の文字を0～strB.length()-1の数
         // 取り除いたcheckStrBとstrAとを比較していく
         //checkStrBの先頭の文字はarrayStrB[i]
@@ -77,15 +75,6 @@ public class Relevantsearch {
                 if (breakflag) {
                     break;
                 }
-
-                //checkStrBの最初文字がヒットした位置からCheckStrBを
-                //並べたときに本来その文字が入るべき場所までを検索する。
-                //TODO  これがいるかどうかを調べる
-//                if (j != 0) {
-//                    endIndex = (endIndex > arrayStrA.length - 1) ?
-//                            arrayStrA.length - 1 : initIndex + j;
-//                }
-
 
                 //arrayStrB[j]とstrAの文字を一文字づつ比べていく
                 //検索開始位置は位置が決定したインデックスの次のインディックスから
