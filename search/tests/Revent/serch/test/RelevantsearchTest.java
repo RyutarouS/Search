@@ -21,7 +21,7 @@ class RelevantsearchTest {
     void isRelaventScore() {
         String strA = "abcd";
         String strB = "bccd";
-        //assertEquals(2, Relevantsearch.isRelevantScore(strA,strB));
+        assertEquals(2, Relevantsearch.isReleventScore(strA,strB));
 
         strA = "abcd";
         strB = "eccd";
@@ -38,5 +38,11 @@ class RelevantsearchTest {
         strA = "abcd";
         strB = "eccdea";
         assertEquals(4, Relevantsearch.isReleventScore(strA,strB));
+
+        strA = "abcdef";
+        strB = "acdef";
+        assertEquals(1, Relevantsearch.isReleventScore(strA,strB));
+
+
     }
 }
