@@ -1,3 +1,5 @@
+import relevent.serch.Relevantsearch;
+
 public class Main {
     public static void main (String[] args){
         String strA = "abc";
@@ -7,6 +9,6 @@ public class Main {
         String[] arrayStrB = strB.split("");
 
         System.out.println(222222222);
-       System.out.println(Relaventsearch.isRelaventScore(strA,strB));
+       System.out.println(Relevantsearch.isReleventScore(strA,strB));
     }
 }

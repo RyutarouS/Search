@@ -1,10 +1,12 @@
+package relevent.serch;
+
 import java.util.Arrays;
 
 /**
  * To get a relavent score between two word.
  * this is following the Levenshtein distance.
  */
-public class Relaventsearch {
+public class Relevantsearch {
     /**
      * @param strA
      * @param strB
@@ -38,22 +40,22 @@ public class Relaventsearch {
             String[] checkStrB = Arrays.copyOfRange(arrayStrB, i, strB.length());
 
             //test
-            System.out.println("i" + i +"\n" + Arrays.toString(checkStrB));
+            System.out.println("i" + i + "\n" + Arrays.toString(checkStrB));
 
             //jはcheckStrBのindex
             //先頭の文字がstrAと一文字もヒットしなかったらbraekしてcheckStrBを作り直す
             for (int j = 0; j < checkStrB.length; j++) {
 
                 //Test
-                System.out.println("initIndex :" + initIndex +"\n" +
+                System.out.println("initIndex :" + initIndex + "\n" +
                         "startIndex : " + startIndex + "\n" +
                         "endIndex : " + endIndex + "\n" +
-                        "breakFlag :" + breakflag +"\n" +
+                        "breakFlag :" + breakflag + "\n" +
                         "j :" + j);
 
                 //検索の開始インデックスがarrayStrAの大きさを超えたらbreak
                 //StrAの長さ超えた文字は削除するのでその分preScoreに加算
-                if (startIndex > arrayStrA.length -1) {
+                if (startIndex > arrayStrA.length - 1) {
                     preScore += checkStrB.length - j;
                     //Test
                     System.out.println("add point 1    +" + (checkStrB.length - j));
@@ -85,8 +87,8 @@ public class Relaventsearch {
                             initIndex = h;
                         }
                         //test
-                        System.out.println("add point 2    +" + (initIndex+j-h));
-                        preScore += initIndex+j-h;
+                        System.out.println("add point 2    +" + (initIndex + j - h));
+                        preScore += initIndex + j - h;
                         startIndex = h + 1;
                         tmpList[h] = checkStrB[j];
 
@@ -109,10 +111,10 @@ public class Relaventsearch {
             //tmpListとstrAを一文字ずつ比べて異なる数だけpreScoreを＋1
             for (int j = 0; j < strA.length(); j++) {
                 //StrAの前方にあふれた文字は削除するのでその分加算
-                if(i - initIndex > 0){
+                if (i - initIndex > 0) {
 
                     //test
-                    System.out.println("add point 3    + " + (i - initIndex)) ;
+                    System.out.println("add point 3    + " + (i - initIndex));
 
                     preScore += (i - initIndex);
                 }
@@ -120,7 +122,7 @@ public class Relaventsearch {
                 if (tmpList[j] == null) {
 
                     //test
-                    System.out.println("add point 4    + 1") ;
+                    System.out.println("add point 4    + 1");
 
                     preScore += 1;
                     continue;
@@ -146,6 +148,5 @@ public class Relaventsearch {
         }
         //score = score/numToOptimize;
         return score;
+    }
 }
-    public static String[] sortByRelevent()
-}   
