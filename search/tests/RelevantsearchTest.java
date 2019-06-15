@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class RelaventsearchTest {
+class RelevantsearchTest {
 
     @BeforeEach
     void setUp() {
@@ -17,23 +17,13 @@ class RelaventsearchTest {
     @Test
     void isRelaventScore() {
         String strA = "abcd";
-        String strB = "bccd";
-        //assertEquals(2, Relaventsearch.isRelaventScore(strA,strB));
-
-        strA = "abcd";
-        strB = "eccd";
-        assertEquals(2, Relaventsearch.isRelaventScore(strA,strB));
-
-        strA = "abcd";
-        strB = "dd";
-        assertEquals(3, Relaventsearch.isRelaventScore(strA,strB));
-
-        strA = "abcd";
-        strB = "cad";
-        assertEquals(3, Relaventsearch.isRelaventScore(strA,strB));
-
-        strA = "abcd";
-        strB = "eccdea";
-        assertEquals(4, Relaventsearch.isRelaventScore(strA,strB));
+        String[] strBs = {"abcd", "abdd", "dd", "cad", "eccdea", "abcd", "a", "eccdeag", "absd", "absd"};
+        int[] anses = {0, 1, 3, 3, 4, 0,3,5,1,1};
+        for(int i = 0; i < strBs.length; i++){
+            double numToOptimize = Math.max(strA.length(), strBs[i].length());
+            System.out.println(strA + " vs. " + strBs[i]);
+            System.out.println(Relevantsearch.isRelevantScore(strA,strBs[i]));
+            assertEquals(anses[i]/numToOptimize, Relevantsearch.isRelevantScore(strA,strBs[i]));
+        }
     }
 }
