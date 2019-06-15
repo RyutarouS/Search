@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="463ba4a1-e5bf-4017-9633-62abd8d6e6c7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/relevent/serch/Relevantsearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/relevent/serch/Relevantsearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Revent/serch/test/RelevantsearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Revent/serch/test/RelevantsearchTest.java" afterDir="false" />
     </list>
@@ -16,8 +17,7 @@
     <SUITE FILE_PATH="coverage/search$Main.ic" NAME="Main Coverage Results" MODIFIED="1558104987067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -39,24 +39,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/relevent/serch/Relevantsearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="98" column="49" selection-start-line="98" selection-start-column="49" selection-end-line="98" selection-end-column="49" />
-              <folding>
-                <element signature="e#1822#1841#0" />
-                <element signature="e#1974#1980#0" />
-              </folding>
+            <state relative-caret-position="774">
+              <caret line="127" column="8" lean-forward="true" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/Revent/serch/test/RelevantsearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="44" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="44" />
+            <state relative-caret-position="190">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,8 +88,8 @@
         <option value="$PROJECT_DIR$/src/testUtil.java" />
         <option value="$PROJECT_DIR$/src/Relevantsearch.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/tests/Revent/serch/test/RelevantsearchTest.java" />
         <option value="$PROJECT_DIR$/src/relevent/serch/Relevantsearch.java" />
+        <option value="$PROJECT_DIR$/tests/Revent/serch/test/RelevantsearchTest.java" />
       </list>
     </option>
   </component>
@@ -108,44 +104,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="search" type="b2602c69:ProjectViewProjectNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="search" type="b2602c69:ProjectViewProjectNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="search" type="b2602c69:ProjectViewProjectNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="serch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="search" type="b2602c69:ProjectViewProjectNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="search" type="b2602c69:ProjectViewProjectNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -242,21 +201,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RelevantsearchTest - 2019.06.09 at 21h 13m 18s.xml">
-      <configuration name="RelevantsearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RelevantsearchTest - 2019.06.09 at 21h 17m 26s.xml">
-      <configuration name="RelevantsearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RelevantsearchTest - 2019.06.09 at 21h 18m 08s.xml">
-      <configuration name="RelevantsearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RelevantsearchTest - 2019.06.09 at 21h 18m 24s.xml">
-      <configuration name="RelevantsearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RelevantsearchTest - 2019.06.09 at 21h 25m 05s.xml">
-      <configuration name="RelevantsearchTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RelevantsearchTest - 2019.06.09 at 21h 30m 18s.xml">
       <configuration name="RelevantsearchTest" configurationId="JUnit" />
     </history-entry>
@@ -272,10 +216,24 @@
     <history-entry file="RelevantsearchTest - 2019.06.09 at 21h 42m 12s.xml">
       <configuration name="RelevantsearchTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RelevantsearchTest - 2019.06.09 at 21h 44m 27s.xml">
+      <configuration name="RelevantsearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RelevantsearchTest - 2019.06.09 at 21h 44m 43s.xml">
+      <configuration name="RelevantsearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RelevantsearchTest - 2019.06.15 at 14h 04m 24s.xml">
+      <configuration name="RelevantsearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RelevantsearchTest - 2019.06.15 at 14h 05m 06s.xml">
+      <configuration name="RelevantsearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RelevantsearchTest - 2019.06.15 at 14h 06m 16s.xml">
+      <configuration name="RelevantsearchTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="-6" width="1163" height="774" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25201795" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -286,15 +244,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29066265" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48644578" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.51957834" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.14006025" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35240963" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3290938" />
+      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -306,27 +265,8 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/relevent/serch/Relevantsearch.java</url>
-          <line>58</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Relaventsearch.java" />
-    <entry file="file://$PROJECT_DIR$/src/testUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -334,23 +274,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Revent/serch/test/RelevantsearchTest.java">
+    <entry file="file://$PROJECT_DIR$/src/testUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="44" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="72">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/relevent/serch/Relevantsearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="98" column="49" selection-start-line="98" selection-start-column="49" selection-end-line="98" selection-end-column="49" />
+        <state relative-caret-position="774">
+          <caret line="127" column="8" lean-forward="true" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Revent/serch/test/RelevantsearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
           <folding>
-            <element signature="e#1822#1841#0" />
-            <element signature="e#1974#1980#0" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

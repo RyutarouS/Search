@@ -125,7 +125,7 @@ public class Relevantsearch {
                 score = preScore;
             }
         }
-        //score = score/numToOptimize;
+        score = score/numToOptimize;
         return score;
     }
 }
